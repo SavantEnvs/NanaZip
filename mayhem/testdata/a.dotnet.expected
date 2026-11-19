@@ -1,0 +1,7 @@
+open DotNetSingleFile: 0x00000000
+items 2
+item 0 path=app.runtimeconfig.json dir=-1 size=21
+item 1 path=lib/App.dll dir=-1 size=64
+extract: 0x00000000
+data 0 result=0 bytes=21 fnv=e27f1fb9a2b625df
+data 1 result=0 bytes=64 fnv=cf7236ee29d93e83

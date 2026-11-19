@@ -1,0 +1,11 @@
+open Ufs: 0x00000000
+items 4
+item 0 path=sub dir=1 size=512
+item 1 path=hello.txt dir=0 size=12
+item 2 path=link dir=0 size=9
+item 3 path=sub/big.dat dir=0 size=20000
+extract: 0x00000000
+data 0 result=0 bytes=512 fnv=f993b88b6019ae78
+data 1 result=0 bytes=12 fnv=c6687e1578248a74
+data 2 result=0 bytes=0 fnv=14650fb0739d0383
+data 3 result=0 bytes=20000 fnv=f83023dd0dd6f523

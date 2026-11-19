@@ -1,0 +1,11 @@
+project: savantenvs/NanaZip
+target: zealfs
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/zealfs/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz/fuzz_Zealfs
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,11 @@
+project: savantenvs/NanaZip
+target: electronasar
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/electronasar/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz/fuzz_ElectronAsar
+    libfuzzer: true
+    timeout: 10

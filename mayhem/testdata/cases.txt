@@ -1,0 +1,8 @@
+Romfs a.romfs
+DotNetSingleFile a.dotnet
+ElectronAsar a.asar
+Zealfs a.zealfs
+WebAssembly a.wasm
+Littlefs a.littlefs
+Ufs a.ufs
+Ufs a.romfs ufs-reject.expected

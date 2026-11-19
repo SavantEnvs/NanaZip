@@ -1,0 +1,9 @@
+open WebAssembly: 0x00000000
+items 3
+item 0 path=.code dir=-1 size=4
+item 1 path=.function dir=-1 size=2
+item 2 path=.type dir=-1 size=4
+extract: 0x00000000
+data 0 result=0 bytes=4 fnv=8006af98269c89fd
+data 1 result=0 bytes=2 fnv=9a65ad00c545d5d2
+data 2 result=0 bytes=4 fnv=51cb7a96596cf482

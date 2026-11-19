@@ -1,0 +1,2 @@
+# Upstream checks text out as CRLF (* text=auto eol=crlf); this layer runs on Linux, keep LF.
+* -text

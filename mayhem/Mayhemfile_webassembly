@@ -1,0 +1,11 @@
+project: savantenvs/NanaZip
+target: webassembly
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/webassembly/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz/fuzz_WebAssembly
+    libfuzzer: true
+    timeout: 10

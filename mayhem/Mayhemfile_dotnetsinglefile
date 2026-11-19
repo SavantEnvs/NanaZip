@@ -1,0 +1,11 @@
+project: savantenvs/NanaZip
+target: dotnetsinglefile
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/dotnetsinglefile/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz/fuzz_DotNetSingleFile
+    libfuzzer: true
+    timeout: 10

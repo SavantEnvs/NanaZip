@@ -1,0 +1,7 @@
+open ElectronAsar: 0x00000000
+items 2
+item 0 path=a.txt dir=-1 size=5
+item 1 path=d/b dir=-1 size=3
+extract: 0x00000000
+data 0 result=0 bytes=5 fnv=005a0d15131ec7a1
+data 1 result=0 bytes=3 fnv=e16801510db89efd
